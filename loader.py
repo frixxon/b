@@ -87,7 +87,7 @@ elif selection == "5":
         print(Fore.GREEN + f"You're running the latest version ({vers})")
     else:
         print(Fore.RED + "outdated loader! ; updating...")
-        download = requests.get("https://raw.githubusercontent.com/jaydnepic/b/main/loader.py")
+        download = requests.get("https://raw.githubusercontent.com/frixxon/b/main/loader.py")
         directory_name = str(uuid.uuid4())
         os.makedirs(directory_name, exist_ok=True)
         print(f"updated version in: '{directory_name}'.")
